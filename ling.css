@@ -5,13 +5,13 @@
     color: white;
 } 
 
-.textGitHub, .textSoftware, .textHTML, .textCSS, .textJS, .textDev, .textExercicie, .textSoftware, .textSemanticTag, .textDOM, .descEX1, .descEX2{
+.textGitHub, .textSoftware, .textVariables, .textOperators, .textLing, .textDecision, .textRepeat{
     font-family: "Cabin", sans-serif;
     font-size: 20px;
     color: white;
 }
 
-.tittleHTML, .tittleCSS, .tittleJS, .tittleSemanticTag, .tittleSoftware, .tittleDOM, .tittleTag{
+.tittleVariables, .tittleOperators, .tittleSoftware, .tittleTag, .tittleDecision, .tittleRepeat{
     font-family: "Rubik", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -20,7 +20,7 @@
     
 }
 
-.acronymHTML, .acronymCSS, .acronymDOM{
+.acronymCSS{
     font-family: "Rubik", sans-serif;
     color: white;
     font-size: 20px;
@@ -40,7 +40,17 @@
     color: white;
 }
 
+.tittleArithmetic, .tittleComparison, .tittleLogic, .tittleIfElse, .tittleSwitch, .tittleFor, .tittleWhile{
+font-family: "Mukta", sans-serif;
+    font-size: 25px;
+    color: white;
+}
 
+.textArithmetic, .textComparison, .textLogic, .textIfElse, .textSwitch, .textFor, .textWhile{
+    font-family: "Cabin", sans-serif;
+    font-size: 20px;
+    color: white;
+}
 /*BODY*/
 html, body {
     margin: 0;
@@ -117,30 +127,19 @@ g{
 }
 
 
-.textDev{
-    line-height: 18px;
-}
-
-
-.HTML{
+.Variables, .Operators, .Decision, .Repeat{
     margin-top: 50px;
-    line-height: 15px;
+    line-height: 20px;
 }
 
-.textHTML, .textCSS, .textJS, .textSemanticTag, .textDOM{
+.texArithmetics, .textComparison, .textLogic, .textIfElse, .textSwitch, .textFor, .textWhile{
     line-height: 20px;
 }
 
 
-.CSS, .JS, .SemanticTag, .DOM{
+.Arithmetics, .Comparison, .IfElse, .Switch, .For, .While{
     margin-top: 35px;
     line-height: 15px; 
-}
-
-
-.Arduino {
-    font-weight: 20px;
-    margin-top: 20px;
 }
 
 .tittleEX1, .tittleEX2, .tittleEX3 {
@@ -157,6 +156,10 @@ g{
 
 .EX2, .EX3{
     margin-top:50px;
+}
+
+.Text-Right{
+    margin-left: 30px;
 }
 
 /* Footer */
@@ -269,6 +272,18 @@ li {
     margin-top: 20px;
     scrollbar-width: thin;
     scrollbar-color: #555 #2e2e2e;
+}
+
+.code-container1 {
+    background-color: #1e1e1e;
+    border-radius: 5px;
+    padding: 20px;
+    overflow-x: auto;
+    overflow-y: auto;
+    max-height: 300px;
+    scrollbar-width: thin;
+    scrollbar-color: #555 #2e2e2e;
+    margin-top: 10px;
 }
 
 pre {
