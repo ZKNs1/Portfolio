@@ -76,6 +76,16 @@ main {
     gap: 20px;
 }
 
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .name {
+        font-size: 25px;
+    }
+}
+
 @media (min-width: 768px) {
     .M_anotacoes {
         flex-direction: row;

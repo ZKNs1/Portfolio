@@ -143,44 +143,44 @@ footer .F_right a {
 
 /* Toggle List */
 .commandDW, .commandDR, .commandAW, .commandAR, .commandPM {
-    background-color: #242424; /* Cor de fundo mais clara */
+    background-color: #242424;
     color: #515050;
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    border: 1px solid #ddd; /* Borda leve */
+    border: 1px solid #ddd;
     text-align: left;
     outline: none;
     font-size: 20px;
     margin-top: 15px;
-    border-radius: 8px; /* Bordas arredondadas */
-    transition: background-color 0.3s, box-shadow 0.3s; /* Transição suave */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    border-radius: 8px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     font-family: "Inconsolata", monospace;
 }
 
 .active, .commandDW:hover, .commandDR:hover, .commandAW:hover, .commandAR:hover, .commandPM:hover {
-    background-color: #e2e6ea; /* Cor de fundo ao passar o mouse */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra mais intensa */
+    background-color: #e2e6ea;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .contentDW, .contentDR, .contentAW, .contentAR, .contentPM {
     padding: 0 18px;
     overflow: hidden;
     background-color: #1e1e1e;
-    border: 1px solid #ddd; /* Borda leve */
-    border-radius: 0 0 8px 8px; /* Bordas arredondadas na parte inferior */
-    margin-top: -10px; /* Remove o espaço entre o botão e o conteúdo */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
-    transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out; /* Transição suave */
-    max-height: 0; /* Inicialmente colapsado */
+    border: 1px solid #ddd;
+    border-radius: 0 0 8px 8px;
+    margin-top: -10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+    max-height: 0;
     color:#e2e6ea;
     font-family: "Merriweather", serif;
 }
 
 .contentDW.show, .contentDR.show, .contentAW.show, .contentAR.show, .contentPM.show {
-    padding: 18px; /* Adiciona padding ao expandir */
-    max-height: 500px; /* Valor alto o suficiente para acomodar o conteúdo */
+    padding: 18px;
+    max-height: 500px; 
 }
 
 ul {
@@ -199,11 +199,11 @@ li {
     border-radius: 5px;
     padding: 20px;
     overflow-x: auto;
-    overflow-y: auto; /* Adiciona rolagem vertical */
-    max-height: 300px; /* Define a altura máxima */
+    overflow-y: auto;
+    max-height: 300px; 
     margin-top: 20px;
     scrollbar-width: thin;
-    scrollbar-color: #555 #2e2e2e; /* Cor da barra e do fundo */
+    scrollbar-color: #555 #2e2e2e;
 }
 
 pre {
@@ -220,22 +220,22 @@ code {
 
 /*EXERCICIO 1*/
 .descEX1::-webkit-scrollbar {
-    width: 12px; /* Width of the scrollbar */
+    width: 12px; 
 }
 
 .descEX1::-webkit-scrollbar-track {
-    background: #2e2e2e; /* Background color of the scrollbar track */
+    background: #2e2e2e;
     border-radius: 10px;
 }
 
 .descEX1::-webkit-scrollbar-thumb {
-    background-color: #555; /* Color of the scrollbar thumb */
-    border-radius: 10px; /* Rounded corners */
-    border: 3px solid #2e2e2e; /* Space around the thumb */
+    background-color: #555;
+    border-radius: 10px;
+    border: 3px solid #2e2e2e; 
 }
 
 .descEX1::-webkit-scrollbar-thumb:hover {
-    background-color: #888; /* Color of the thumb on hover */
+    background-color: #888;
 }
 
 /* Flexbox container for image and description */
@@ -247,13 +247,13 @@ code {
 }
 
 .image-desc-container1 .ftEX1 {
-    flex: 1; /* Flex para a imagem */
+    flex: 1;
 }
 
 .image-desc-container1 .ftEX1 img {
-    max-width: 400px; /* Ajuste conforme necessário */
+    max-width: 400px;
     height: auto;
-    margin-right: 20px; /* Espaço entre a imagem e a descrição */
+    margin-right: 20px;
 }
 
 .image-desc-container1 .descEX1 {
@@ -262,7 +262,7 @@ code {
     padding: 20px;
     border-radius: 5px;
     font-family: "Courier New", Courier, monospace;
-    flex: 2; /* Ajustar conforme necessário */
+    flex: 2;
     overflow-y: auto;
     height: 155px;
     min-width: 300px;
@@ -271,22 +271,22 @@ code {
 
 /*EXERCICIO 2*/
 .descEX2::-webkit-scrollbar {
-    width: 12px; /* Width of the scrollbar */
+    width: 12px; 
 }
 
 .descEX2::-webkit-scrollbar-track {
-    background: #2e2e2e; /* Background color of the scrollbar track */
+    background: #2e2e2e;
     border-radius: 10px;
 }
 
 .descEX2::-webkit-scrollbar-thumb {
-    background-color: #555; /* Color of the scrollbar thumb */
-    border-radius: 10px; /* Rounded corners */
-    border: 3px solid #2e2e2e; /* Space around the thumb */
+    background-color: #555; 
+    border-radius: 10px;
+    border: 3px solid #2e2e2e; 
 }
 
 .descEX2::-webkit-scrollbar-thumb:hover {
-    background-color: #888; /* Color of the thumb on hover */
+    background-color: #888
 }
 
 /* Flexbox container for image and description */
@@ -298,13 +298,13 @@ code {
 }
 
 .image-desc-container2 .ftEX2 {
-    flex: 1; /* Flex para a imagem */
+    flex: 1;
 }
 
 .image-desc-container2 .ftEX2 img {
-    max-width: 400px; /* Ajuste conforme necessário */
+    max-width: 400px;
     height: auto;
-    margin-right: 20px; /* Espaço entre a imagem e a descrição */
+    margin-right: 20px;
 }
 
 .image-desc-container2 .descEX2 {
@@ -313,7 +313,7 @@ code {
     padding: 20px;
     border-radius: 5px;
     font-family: "Courier New", Courier, monospace;
-    flex: 2; /* Ajustar conforme necessário */
+    flex: 2; 
     overflow-y: auto;
     height: 155px;
     min-width: 300px;
@@ -322,22 +322,22 @@ code {
 
 /*EXERCICIO 3*/
 .descEX3::-webkit-scrollbar {
-    width: 12px; /* Width of the scrollbar */
+    width: 12px;
 }
 
 .descEX3::-webkit-scrollbar-track {
-    background: #2e2e2e; /* Background color of the scrollbar track */
+    background: #2e2e2e;
     border-radius: 10px;
 }
 
 .descEX3::-webkit-scrollbar-thumb {
-    background-color: #555; /* Color of the scrollbar thumb */
-    border-radius: 10px; /* Rounded corners */
-    border: 3px solid #2e2e2e; /* Space around the thumb */
+    background-color: #555;
+    border-radius: 10px;
+    border: 3px solid #2e2e2e; 
 }
 
 .descEX3::-webkit-scrollbar-thumb:hover {
-    background-color: #888; /* Color of the thumb on hover */
+    background-color: #888;
 }
 
 /* Flexbox container for image and description */
@@ -349,13 +349,13 @@ code {
 }
 
 .image-desc-container3 .ftEX3 {
-    flex: 1; /* Flex para a imagem */
+    flex: 1;
 }
 
 .image-desc-container3 .ftEX3 img {
-    max-width: 400px; /* Ajuste conforme necessário */
+    max-width: 400px;
     height: auto;
-    margin-right: 20px; /* Espaço entre a imagem e a descrição */
+    margin-right: 20px;
 }
 
 .image-desc-container3 .descEX3 {
@@ -364,9 +364,28 @@ code {
     padding: 20px;
     border-radius: 5px;
     font-family: "Courier New", Courier, monospace;
-    flex: 2; /* Ajustar conforme necessário */
+    flex: 2;
     overflow-y: auto;
     height: 155px;
     min-width: 300px;
     font-size: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        font-size: 16px;
+    }
+    .name {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header {
+        font-size: 14px;
+    }
+    .name {
+        font-size: 20px;
+    }
+
 }
