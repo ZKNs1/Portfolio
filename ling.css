@@ -275,3 +275,22 @@ code {
     font-family: "Courier New", Courier, monospace;
     color: #dcdcdc;
 }
+
+@media only screen and (max-width: 768px) {
+    header {
+        font-size: 16px;
+    }
+    .name {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header {
+        font-size: 14px;
+    }
+    .name {
+        font-size: 20px;
+    }
+
+}
