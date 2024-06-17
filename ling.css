@@ -5,13 +5,13 @@
     color: white;
 } 
 
-.textGitHub, .textSoftware, .textVariables, .textOperators, .textLing, .textDecision, .textRepeat{
+.textGitHub, .textSoftware, .textVariables, .textOperators, .textLing, .textDecision, .textRepeat, .textVector, .textHeadquarters, .textPOO{
     font-family: "Cabin", sans-serif;
     font-size: 20px;
     color: white;
 }
 
-.tittleVariables, .tittleOperators, .tittleSoftware, .tittleTag, .tittleDecision, .tittleRepeat{
+.tittleVariables, .tittleOperators, .tittleSoftware, .tittleTag, .tittleDecision, .tittleRepeat, .tittleVector, .tittleHeadquarters, .tittlePOO{
     font-family: "Rubik", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -20,7 +20,7 @@
     
 }
 
-.acronymCSS{
+.acronymPOO{
     font-family: "Rubik", sans-serif;
     color: white;
     font-size: 20px;
@@ -127,7 +127,7 @@ g{
 }
 
 
-.Variables, .Operators, .Decision, .Repeat{
+.Variables, .Operators, .Decision, .Repeat, .Vector, .Headquarters, .POO{
     margin-top: 50px;
     line-height: 20px;
 }
