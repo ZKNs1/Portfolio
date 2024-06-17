@@ -206,7 +206,7 @@
         System.out.println("Valor de i: " + i);
         i++;
     }
-                                </pre></code>
+                                </code></pre>
                             </div>
                         </div>
                     </div>
@@ -221,7 +221,7 @@
     int[] numeros = {1, 2, 3, 4, 5};
 
     System.out.println(numeros[0]); // Imprime o primeiro elemento: 1
-                    </pre></code>
+                    </code></pre>
                 </div>
             </div>
 
@@ -240,27 +240,108 @@
                     </pre></code>
                 </div>
             </div>
-    
 
+            <div class="Function">
+                <br><a><span class="tittleFunction">Funções</span></a></br>
+                <br><a><span class="textFunction">Função é um bloco de código que executa alguma operação, podem definir parâmetros de entrada permitindo chama-la e passar argumentos, além de também poder retornar um valor como saída. </span></a></br>
+                <div class="code-container">
+                    <pre><code>
+    // A função “areaCirculo” é uma forma de encapsular a lógica de calcular a área de um círculo em um único bloco de código reutilizável.
+ 
+    // Definindo a função areaCirculo
+    public static double areaCirculo(double raio) {
+        double area = Math.PI * raio * raio;
+        return area;
+    }
+
+    public static void main(String[] args) {
+        // Chamando a função areaCirculo e armazenando o resultado
+        double raio = 5.0;
+        double area = areaCirculo(raio);
+
+        System.out.println("A área de um círculo com raio " + raio + " é: " + area);
+    }
+                    </code></pre>
+                </div>
+            </div>
+    
             <div class="POO">
                 <br><a><span class="tittlePOO">POO</span></a></br>
                 <br><a><span class="acronymPOO">Programação Orientada a Objetos</span></a>
-                <br><a><span class="textPOO">São usados para realizar operações com valores ou variáveis, eles permitem a manipulação de dados, execução de cálculos, e controle do fluxo de execução. </span></a></br>
-            </div>
-	        
-
-            <div id="M_exercicie" class="M_exercicie">
-                <h1 class="exercicie">Exercícios</h1>
+                <br><a><span class="textPOO">A programação orientada a objetos organiza o software em torno de "objetos" em vez de funções e lógica.<br>Um objeto é uma instância de uma classe, ou seja, é uma estrutura que define as propriedades chamados de atributos e comportamentos chamados de métodos que o objeto pode ter.</span></a></br>
+            
+                <div class="TextRight">
+                    <div class="Class">
+                        <br><a><span class="tittleClass">Classes e objetos</span></a>
+                        <br><a><span class="textClass">Uma classe é uma forma de definir um tipo de dado em uma linguagem orientada a objeto. Ela é formada por dados (atributos) e comportamentos (métodos)</span></a>
+                        <br><a><span class="textObject">Objeto é uma instância de uma classe. Cada objeto pode ter diferentes valores para os atributos definidos na classe.</span></a>
+                        <div class="code-container">
+                            <pre><code>
+    public class Pessoa {
+        // Atributos da classe
+        private String nome;
+        private int idade;
     
-                <h2 class="tittleEX1">Cadastro Squad</h2>
-                <span class="descEX1">Este é um sistema para cadastrar squads, podendo inserir uma nova, editá-la ou removê-la. Utilizamos HTML, CSS, JS e aplicamos conceitos DOM.</p></span>
-                
+        // Construtor da classe
+        public Pessoa(String nome, int idade) {
+            this.nome = nome;
+            this.idade = idade;
+        }
+    
+        // Método da classe
+        public void apresentar() {
+            System.out.println("Oi, eu sou  " + nome + " e tenho " + idade + " anos.");
+        }
+    }
 
-                <h2 class="tittleEX2">Calculadora</h2>
-                <span class="descEX2">Esta é uma calculadora funcional, utilizando HTMl, CSS e JS.</span>
-                
+
+    public class Main {
+        public static void main(String[] args) {
+            // Criação de um objeto da classe Pessoa
+            Pessoa pessoa = new Pessoa("João", 25);
+            // Chamada do método apresentar do objeto pessoa
+            pessoa.apresentar(); // Imprime: Oi, eu sou João e tenho 25 anos.
+        }
+    }
+                            </code></pre>
+                        </div>
+                    </div>
+
+                    <div class="Encapsulation">
+                        <br><a><span class="tittleEncapsulation">Encapsulamento</span></a>
+                        <br><a><span class="textEncapsulation">O encapsulamento é uma forma de esconder os detalhes internos de um objeto e permitir o acesso apenas através de métodos públicos.</span></a>
+                        <div class="code-container">
+                            <pre><code>
+    public class Pessoa {
+        // Apenas acessíveis nesta classe
+        private String nome;
+        private int idade;
+    
+        //Acessíveis em todas as classes
+        // Métodos getter e setter para o atributo nome
+        public String getNome() {
+            return nome;
+        }
+    
+        public void setNome(String nome) {
+            this.nome = nome;
+        }
+    
+        // Métodos getter e setter para o atributo idade
+        public int getIdade() {
+            return idade;
+        }
+    
+        public void setIdade(int idade) {
+            this.idade = idade;
+        }
+    }
+                            </code></pre>
+                        </div>
+                    </div>
+                </div>
             </div>
-                
+        </div>
     </main>
 
     <footer id="footer">
